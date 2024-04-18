@@ -1,0 +1,2045 @@
+2024-04-16 21:37:14,624 - INFO - starting Al Jazeera Bot...
+2024-04-16 21:37:14,624 - INFO - Opening Al Jazeera website...
+2024-04-16 21:42:11,447 - ERROR - An error occurred during the bot execution: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF781937032+63090]
+	(No symbol) [0x00007FF7818A2C82]
+	(No symbol) [0x00007FF78173EC65]
+	(No symbol) [0x00007FF78178499D]
+	(No symbol) [0x00007FF781784ADC]
+	(No symbol) [0x00007FF7817C5B37]
+	(No symbol) [0x00007FF7817A701F]
+	(No symbol) [0x00007FF7817C3412]
+	(No symbol) [0x00007FF7817A6D83]
+	(No symbol) [0x00007FF7817783A8]
+	(No symbol) [0x00007FF781779441]
+	GetHandleVerifier [0x00007FF781D325AD+4238317]
+	GetHandleVerifier [0x00007FF781D6F70D+4488525]
+	GetHandleVerifier [0x00007FF781D679EF+4456495]
+	GetHandleVerifier [0x00007FF781A10576+953270]
+	(No symbol) [0x00007FF7818AE54F]
+	(No symbol) [0x00007FF7818A9224]
+	(No symbol) [0x00007FF7818A935B]
+	(No symbol) [0x00007FF781899B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.search_news()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 55, in search_news
+    search_input = self.wait.until(EC.visibility_of_element_located((By.ID, "534c8063303630a")))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF781937032+63090]
+	(No symbol) [0x00007FF7818A2C82]
+	(No symbol) [0x00007FF78173EC65]
+	(No symbol) [0x00007FF78178499D]
+	(No symbol) [0x00007FF781784ADC]
+	(No symbol) [0x00007FF7817C5B37]
+	(No symbol) [0x00007FF7817A701F]
+	(No symbol) [0x00007FF7817C3412]
+	(No symbol) [0x00007FF7817A6D83]
+	(No symbol) [0x00007FF7817783A8]
+	(No symbol) [0x00007FF781779441]
+	GetHandleVerifier [0x00007FF781D325AD+4238317]
+	GetHandleVerifier [0x00007FF781D6F70D+4488525]
+	GetHandleVerifier [0x00007FF781D679EF+4456495]
+	GetHandleVerifier [0x00007FF781A10576+953270]
+	(No symbol) [0x00007FF7818AE54F]
+	(No symbol) [0x00007FF7818A9224]
+	(No symbol) [0x00007FF7818A935B]
+	(No symbol) [0x00007FF781899B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 19:36:33,310 - INFO - starting Al Jazeera Bot...
+2024-04-17 19:36:33,311 - INFO - Opening Al Jazeera website...
+2024-04-17 19:41:13,735 - INFO - starting Al Jazeera Bot...
+2024-04-17 19:41:13,736 - INFO - Opening Al Jazeera website...
+2024-04-17 19:44:42,160 - INFO - starting Al Jazeera Bot...
+2024-04-17 19:44:42,230 - INFO - Opening Al Jazeera website...
+2024-04-17 19:45:13,741 - ERROR - An error occurred during the bot execution: Message: element not interactable
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF775767032+63090]
+	(No symbol) [0x00007FF7756D2C82]
+	(No symbol) [0x00007FF77556EB1D]
+	(No symbol) [0x00007FF7755AFA67]
+	(No symbol) [0x00007FF7755AE66B]
+	(No symbol) [0x00007FF7755D6FDA]
+	(No symbol) [0x00007FF7755AA00A]
+	(No symbol) [0x00007FF7755D71F0]
+	(No symbol) [0x00007FF7755F3412]
+	(No symbol) [0x00007FF7755D6D83]
+	(No symbol) [0x00007FF7755A83A8]
+	(No symbol) [0x00007FF7755A9441]
+	GetHandleVerifier [0x00007FF775B625AD+4238317]
+	GetHandleVerifier [0x00007FF775B9F70D+4488525]
+	GetHandleVerifier [0x00007FF775B979EF+4456495]
+	GetHandleVerifier [0x00007FF775840576+953270]
+	(No symbol) [0x00007FF7756DE54F]
+	(No symbol) [0x00007FF7756D9224]
+	(No symbol) [0x00007FF7756D935B]
+	(No symbol) [0x00007FF7756C9B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.search_news()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 56, in search_news
+    search_input.send_keys(self.search_phrase)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 231, in send_keys
+    self._execute(
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF775767032+63090]
+	(No symbol) [0x00007FF7756D2C82]
+	(No symbol) [0x00007FF77556EB1D]
+	(No symbol) [0x00007FF7755AFA67]
+	(No symbol) [0x00007FF7755AE66B]
+	(No symbol) [0x00007FF7755D6FDA]
+	(No symbol) [0x00007FF7755AA00A]
+	(No symbol) [0x00007FF7755D71F0]
+	(No symbol) [0x00007FF7755F3412]
+	(No symbol) [0x00007FF7755D6D83]
+	(No symbol) [0x00007FF7755A83A8]
+	(No symbol) [0x00007FF7755A9441]
+	GetHandleVerifier [0x00007FF775B625AD+4238317]
+	GetHandleVerifier [0x00007FF775B9F70D+4488525]
+	GetHandleVerifier [0x00007FF775B979EF+4456495]
+	GetHandleVerifier [0x00007FF775840576+953270]
+	(No symbol) [0x00007FF7756DE54F]
+	(No symbol) [0x00007FF7756D9224]
+	(No symbol) [0x00007FF7756D935B]
+	(No symbol) [0x00007FF7756C9B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 19:57:31,777 - INFO - starting Al Jazeera Bot...
+2024-04-17 19:57:31,790 - INFO - Opening Al Jazeera website...
+2024-04-17 20:02:31,859 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 294.834
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF775767032+63090]
+	(No symbol) [0x00007FF7756D2C82]
+	(No symbol) [0x00007FF77556EC65]
+	(No symbol) [0x00007FF77555D1EF]
+	(No symbol) [0x00007FF77555D021]
+	(No symbol) [0x00007FF77555B0A8]
+	(No symbol) [0x00007FF77555BA8F]
+	(No symbol) [0x00007FF775568A3E]
+	(No symbol) [0x00007FF77557AB0E]
+	(No symbol) [0x00007FF77557F82A]
+	(No symbol) [0x00007FF77555C006]
+	(No symbol) [0x00007FF77557A93D]
+	(No symbol) [0x00007FF7755F376C]
+	(No symbol) [0x00007FF7755D6D83]
+	(No symbol) [0x00007FF7755A83A8]
+	(No symbol) [0x00007FF7755A9441]
+	GetHandleVerifier [0x00007FF775B625AD+4238317]
+	GetHandleVerifier [0x00007FF775B9F70D+4488525]
+	GetHandleVerifier [0x00007FF775B979EF+4456495]
+	GetHandleVerifier [0x00007FF775840576+953270]
+	(No symbol) [0x00007FF7756DE54F]
+	(No symbol) [0x00007FF7756D9224]
+	(No symbol) [0x00007FF7756D935B]
+	(No symbol) [0x00007FF7756C9B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 41, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 52, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 294.834
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF775767032+63090]
+	(No symbol) [0x00007FF7756D2C82]
+	(No symbol) [0x00007FF77556EC65]
+	(No symbol) [0x00007FF77555D1EF]
+	(No symbol) [0x00007FF77555D021]
+	(No symbol) [0x00007FF77555B0A8]
+	(No symbol) [0x00007FF77555BA8F]
+	(No symbol) [0x00007FF775568A3E]
+	(No symbol) [0x00007FF77557AB0E]
+	(No symbol) [0x00007FF77557F82A]
+	(No symbol) [0x00007FF77555C006]
+	(No symbol) [0x00007FF77557A93D]
+	(No symbol) [0x00007FF7755F376C]
+	(No symbol) [0x00007FF7755D6D83]
+	(No symbol) [0x00007FF7755A83A8]
+	(No symbol) [0x00007FF7755A9441]
+	GetHandleVerifier [0x00007FF775B625AD+4238317]
+	GetHandleVerifier [0x00007FF775B9F70D+4488525]
+	GetHandleVerifier [0x00007FF775B979EF+4456495]
+	GetHandleVerifier [0x00007FF775840576+953270]
+	(No symbol) [0x00007FF7756DE54F]
+	(No symbol) [0x00007FF7756D9224]
+	(No symbol) [0x00007FF7756D935B]
+	(No symbol) [0x00007FF7756C9B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 20:07:58,742 - INFO - starting Al Jazeera Bot...
+2024-04-17 20:07:58,742 - INFO - Opening Al Jazeera website...
+2024-04-17 20:12:58,770 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 295.703
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF775767032+63090]
+	(No symbol) [0x00007FF7756D2C82]
+	(No symbol) [0x00007FF77556EC65]
+	(No symbol) [0x00007FF77555D1EF]
+	(No symbol) [0x00007FF77555D021]
+	(No symbol) [0x00007FF77555B0A8]
+	(No symbol) [0x00007FF77555BA8F]
+	(No symbol) [0x00007FF775568A3E]
+	(No symbol) [0x00007FF77557AB0E]
+	(No symbol) [0x00007FF77557F82A]
+	(No symbol) [0x00007FF77555C006]
+	(No symbol) [0x00007FF77557A93D]
+	(No symbol) [0x00007FF7755F376C]
+	(No symbol) [0x00007FF7755D6D83]
+	(No symbol) [0x00007FF7755A83A8]
+	(No symbol) [0x00007FF7755A9441]
+	GetHandleVerifier [0x00007FF775B625AD+4238317]
+	GetHandleVerifier [0x00007FF775B9F70D+4488525]
+	GetHandleVerifier [0x00007FF775B979EF+4456495]
+	GetHandleVerifier [0x00007FF775840576+953270]
+	(No symbol) [0x00007FF7756DE54F]
+	(No symbol) [0x00007FF7756D9224]
+	(No symbol) [0x00007FF7756D935B]
+	(No symbol) [0x00007FF7756C9B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 41, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 52, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 295.703
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF775767032+63090]
+	(No symbol) [0x00007FF7756D2C82]
+	(No symbol) [0x00007FF77556EC65]
+	(No symbol) [0x00007FF77555D1EF]
+	(No symbol) [0x00007FF77555D021]
+	(No symbol) [0x00007FF77555B0A8]
+	(No symbol) [0x00007FF77555BA8F]
+	(No symbol) [0x00007FF775568A3E]
+	(No symbol) [0x00007FF77557AB0E]
+	(No symbol) [0x00007FF77557F82A]
+	(No symbol) [0x00007FF77555C006]
+	(No symbol) [0x00007FF77557A93D]
+	(No symbol) [0x00007FF7755F376C]
+	(No symbol) [0x00007FF7755D6D83]
+	(No symbol) [0x00007FF7755A83A8]
+	(No symbol) [0x00007FF7755A9441]
+	GetHandleVerifier [0x00007FF775B625AD+4238317]
+	GetHandleVerifier [0x00007FF775B9F70D+4488525]
+	GetHandleVerifier [0x00007FF775B979EF+4456495]
+	GetHandleVerifier [0x00007FF775840576+953270]
+	(No symbol) [0x00007FF7756DE54F]
+	(No symbol) [0x00007FF7756D9224]
+	(No symbol) [0x00007FF7756D935B]
+	(No symbol) [0x00007FF7756C9B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 20:30:20,599 - INFO - starting Al Jazeera Bot...
+2024-04-17 20:30:20,995 - INFO - Opening Al Jazeera website...
+2024-04-17 20:35:19,462 - ERROR - An error occurred during the bot execution: 'AlJazeeraBot' object has no attribute 'waituntil'
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 43, in run
+    self.select_news_category()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 60, in select_news_category
+    news_category = self.waituntil(EC.visibility_of_element_located((By.CSS_SELECTOR, ".menu-level").a))
+                    ^^^^^^^^^^^^^^
+AttributeError: 'AlJazeeraBot' object has no attribute 'waituntil'
+2024-04-17 20:41:56,273 - INFO - starting Al Jazeera Bot...
+2024-04-17 20:41:56,367 - INFO - Opening Al Jazeera website...
+2024-04-17 20:46:56,390 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 294.672
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 41, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 52, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 294.672
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 20:53:42,912 - INFO - starting Al Jazeera Bot...
+2024-04-17 20:53:43,028 - INFO - Opening Al Jazeera website...
+2024-04-17 20:58:43,056 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 295.839
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 41, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 52, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 295.839
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 21:12:42,965 - INFO - starting Al Jazeera Bot...
+2024-04-17 21:12:42,966 - INFO - Opening Al Jazeera website...
+2024-04-17 21:13:53,827 - INFO - Search successful.
+2024-04-17 21:13:53,828 - INFO - Attempting to select news category.
+2024-04-17 21:13:53,922 - ERROR - Error selecting news category: Message: invalid argument: 'url' must be a string
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC853E3A]
+	(No symbol) [0x00007FF6EC836FDA]
+	(No symbol) [0x00007FF6EC853412]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 21:13:53,923 - INFO - Extracting news data...
+2024-04-17 21:14:04,577 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 79, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-17 21:15:16,174 - INFO - starting Al Jazeera Bot...
+2024-04-17 21:15:16,218 - INFO - Opening Al Jazeera website...
+2024-04-17 21:16:03,965 - INFO - Search successful.
+2024-04-17 21:16:03,966 - INFO - Attempting to select news category.
+2024-04-17 21:16:04,160 - ERROR - Error selecting news category: Message: invalid argument: 'url' must be a string
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC853E3A]
+	(No symbol) [0x00007FF6EC836FDA]
+	(No symbol) [0x00007FF6EC853412]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 21:16:04,161 - INFO - Extracting news data...
+2024-04-17 21:16:14,636 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 79, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-17 21:23:21,464 - INFO - starting Al Jazeera Bot...
+2024-04-17 21:23:21,466 - INFO - Opening Al Jazeera website...
+2024-04-17 21:28:01,463 - INFO - Search successful.
+2024-04-17 21:28:01,464 - INFO - Attempting to select news category.
+2024-04-17 21:28:12,004 - ERROR - Error selecting news category: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC81499D]
+	(No symbol) [0x00007FF6EC814ADC]
+	(No symbol) [0x00007FF6EC855B37]
+	(No symbol) [0x00007FF6EC83701F]
+	(No symbol) [0x00007FF6EC853412]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 21:28:12,004 - INFO - Extracting news data...
+2024-04-17 21:28:22,523 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 79, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-17 21:32:17,591 - INFO - starting Al Jazeera Bot...
+2024-04-17 21:32:17,687 - INFO - Opening Al Jazeera website...
+2024-04-17 21:37:11,681 - INFO - Search successful.
+2024-04-17 21:37:11,682 - INFO - Attempting to select news category.
+2024-04-17 21:37:11,881 - ERROR - Error selecting news category: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC81499D]
+	(No symbol) [0x00007FF6EC814ADC]
+	(No symbol) [0x00007FF6EC80A0AC]
+	(No symbol) [0x00007FF6EC83701F]
+	(No symbol) [0x00007FF6EC80A00A]
+	(No symbol) [0x00007FF6EC8371F0]
+	(No symbol) [0x00007FF6EC853412]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 21:37:11,881 - INFO - Extracting news data...
+2024-04-17 21:37:22,017 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 79, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-17 21:40:27,268 - INFO - starting Al Jazeera Bot...
+2024-04-17 21:40:27,269 - INFO - Opening Al Jazeera website...
+2024-04-17 21:45:04,516 - INFO - Search successful.
+2024-04-17 21:45:04,517 - INFO - Attempting to select news category.
+2024-04-17 21:45:14,895 - ERROR - Error selecting news category: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC81499D]
+	(No symbol) [0x00007FF6EC814ADC]
+	(No symbol) [0x00007FF6EC855B37]
+	(No symbol) [0x00007FF6EC83701F]
+	(No symbol) [0x00007FF6EC853412]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 21:45:14,897 - INFO - Extracting news data...
+2024-04-17 21:45:25,050 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 79, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-17 21:50:16,878 - INFO - starting Al Jazeera Bot...
+2024-04-17 21:50:16,878 - INFO - Opening Al Jazeera website...
+2024-04-17 21:55:16,892 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 292.446
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 41, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 52, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 292.446
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 21:57:04,093 - INFO - starting Al Jazeera Bot...
+2024-04-17 21:57:04,093 - INFO - Opening Al Jazeera website...
+2024-04-17 22:01:35,964 - INFO - Search successful.
+2024-04-17 22:01:35,964 - INFO - Attempting to select news category.
+2024-04-17 22:01:46,294 - ERROR - Error selecting news category: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC81499D]
+	(No symbol) [0x00007FF6EC814ADC]
+	(No symbol) [0x00007FF6EC855B37]
+	(No symbol) [0x00007FF6EC83701F]
+	(No symbol) [0x00007FF6EC853412]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 22:01:46,295 - INFO - Extracting news data...
+2024-04-17 22:01:56,401 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 80, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-17 22:04:15,868 - INFO - starting Al Jazeera Bot...
+2024-04-17 22:04:15,868 - INFO - Opening Al Jazeera website...
+2024-04-17 22:09:05,157 - INFO - Search successful.
+2024-04-17 22:09:05,158 - INFO - Attempting to select news category.
+2024-04-17 22:09:15,361 - ERROR - Error selecting news category: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC81499D]
+	(No symbol) [0x00007FF6EC814ADC]
+	(No symbol) [0x00007FF6EC855B37]
+	(No symbol) [0x00007FF6EC83701F]
+	(No symbol) [0x00007FF6EC853412]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 22:09:15,362 - INFO - Extracting news data...
+2024-04-17 22:09:25,457 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 80, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-17 22:23:34,886 - INFO - starting Al Jazeera Bot...
+2024-04-17 22:23:34,886 - INFO - Opening Al Jazeera website...
+2024-04-17 22:28:34,908 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 293.942
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 41, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 52, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 293.942
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 22:29:57,054 - INFO - starting Al Jazeera Bot...
+2024-04-17 22:29:57,057 - INFO - Opening Al Jazeera website...
+2024-04-17 22:34:53,307 - INFO - Search successful.
+2024-04-17 22:34:53,308 - ERROR - An error occurred during the bot execution: AlJazeeraBot.select_news_category() missing 1 required positional argument: 'category_url'
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 43, in run
+    self.select_news_category()
+TypeError: AlJazeeraBot.select_news_category() missing 1 required positional argument: 'category_url'
+2024-04-17 22:36:44,920 - INFO - starting Al Jazeera Bot...
+2024-04-17 22:36:44,928 - INFO - Opening Al Jazeera website...
+2024-04-17 22:37:45,565 - INFO - Search successful.
+2024-04-17 22:37:45,566 - ERROR - An error occurred during the bot execution: name 'category_url' is not defined
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 43, in run
+    self.select_news_category(category_url)
+                              ^^^^^^^^^^^^
+NameError: name 'category_url' is not defined
+2024-04-17 22:41:32,707 - INFO - starting Al Jazeera Bot...
+2024-04-17 22:41:32,707 - INFO - Opening Al Jazeera website...
+2024-04-17 22:46:15,772 - INFO - Search successful.
+2024-04-17 22:46:15,774 - ERROR - An error occurred during the bot execution: name 'category_url' is not defined
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.select_news_category(category_url)
+                              ^^^^^^^^^^^^
+NameError: name 'category_url' is not defined
+2024-04-17 22:48:02,591 - INFO - starting Al Jazeera Bot...
+2024-04-17 22:48:02,592 - INFO - Opening Al Jazeera website...
+2024-04-17 22:53:02,633 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 295.008
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 53, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 295.008
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 22:53:28,682 - INFO - starting Al Jazeera Bot...
+2024-04-17 22:53:28,769 - INFO - Opening Al Jazeera website...
+2024-04-17 22:58:08,735 - INFO - Search successful.
+2024-04-17 22:58:08,737 - ERROR - An error occurred during the bot execution: AlJazeeraBot.select_news_category() missing 1 required positional argument: 'category_url'
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 44, in run
+    self.select_news_category()
+TypeError: AlJazeeraBot.select_news_category() missing 1 required positional argument: 'category_url'
+2024-04-17 22:59:48,203 - INFO - starting Al Jazeera Bot...
+2024-04-17 22:59:48,205 - INFO - Opening Al Jazeera website...
+2024-04-17 23:00:53,891 - INFO - Search successful.
+2024-04-17 23:00:53,893 - INFO - Attempting to select news category.
+2024-04-17 23:05:53,933 - ERROR - Error selecting news category: Message: timeout: Timed out receiving message from renderer: 297.595
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6EC9C7032+63090]
+	(No symbol) [0x00007FF6EC932C82]
+	(No symbol) [0x00007FF6EC7CEC65]
+	(No symbol) [0x00007FF6EC7BD1EF]
+	(No symbol) [0x00007FF6EC7BD021]
+	(No symbol) [0x00007FF6EC7BB0A8]
+	(No symbol) [0x00007FF6EC7BBA8F]
+	(No symbol) [0x00007FF6EC7C8A3E]
+	(No symbol) [0x00007FF6EC7DAB0E]
+	(No symbol) [0x00007FF6EC7DF82A]
+	(No symbol) [0x00007FF6EC7BC006]
+	(No symbol) [0x00007FF6EC7DA93D]
+	(No symbol) [0x00007FF6EC85376C]
+	(No symbol) [0x00007FF6EC836D83]
+	(No symbol) [0x00007FF6EC8083A8]
+	(No symbol) [0x00007FF6EC809441]
+	GetHandleVerifier [0x00007FF6ECDC25AD+4238317]
+	GetHandleVerifier [0x00007FF6ECDFF70D+4488525]
+	GetHandleVerifier [0x00007FF6ECDF79EF+4456495]
+	GetHandleVerifier [0x00007FF6ECAA0576+953270]
+	(No symbol) [0x00007FF6EC93E54F]
+	(No symbol) [0x00007FF6EC939224]
+	(No symbol) [0x00007FF6EC93935B]
+	(No symbol) [0x00007FF6EC929B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-17 23:05:53,934 - INFO - Extracting news data...
+2024-04-17 23:06:04,141 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 84, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-17 23:06:37,554 - INFO - starting Al Jazeera Bot...
+2024-04-17 23:06:37,556 - INFO - Opening Al Jazeera website...
+2024-04-17 23:11:37,477 - INFO - Search successful.
+2024-04-17 23:11:37,479 - INFO - Attempting to select news category.
+2024-04-17 23:11:57,701 - INFO - News category selected successfully.
+2024-04-17 23:11:57,702 - INFO - Extracting news data...
+2024-04-17 23:12:08,174 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 84, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-18 14:23:13,899 - INFO - starting Al Jazeera Bot...
+2024-04-18 14:23:13,899 - INFO - Opening Al Jazeera website...
+2024-04-18 14:27:44,313 - INFO - Search successful.
+2024-04-18 14:27:44,314 - INFO - Attempting to select news category.
+2024-04-18 14:28:05,490 - INFO - News category selected successfully.
+2024-04-18 14:28:05,492 - INFO - Extracting news data...
+2024-04-18 14:28:15,617 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 84, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".article-mezzoti")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-18 14:52:38,634 - INFO - starting Al Jazeera Bot...
+2024-04-18 14:52:38,634 - INFO - Opening Al Jazeera website...
+2024-04-18 14:57:38,706 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 293.508
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 53, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 293.508
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 14:58:12,232 - INFO - starting Al Jazeera Bot...
+2024-04-18 14:58:12,233 - INFO - Opening Al Jazeera website...
+2024-04-18 15:03:12,260 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 290.403
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 53, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 290.403
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 15:04:44,748 - INFO - starting Al Jazeera Bot...
+2024-04-18 15:04:44,755 - INFO - Opening Al Jazeera website...
+2024-04-18 15:05:50,331 - INFO - Search successful.
+2024-04-18 15:05:50,332 - INFO - Attempting to select news category.
+2024-04-18 15:06:03,824 - INFO - News category selected successfully.
+2024-04-18 15:06:03,825 - INFO - Extracting news data...
+2024-04-18 15:06:03,848 - ERROR - An error occurred during the bot execution: type object 'By' has no attribute 'ClASS_NAME'
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 84, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.ClASS_NAME, "caas-img")))
+                                                                    ^^^^^^^^^^^^^
+AttributeError: type object 'By' has no attribute 'ClASS_NAME'
+2024-04-18 15:11:45,604 - INFO - starting Al Jazeera Bot...
+2024-04-18 15:11:45,605 - INFO - Opening Al Jazeera website...
+2024-04-18 15:12:30,129 - INFO - Search successful.
+2024-04-18 15:12:30,129 - INFO - Attempting to select news category.
+2024-04-18 15:12:40,304 - INFO - News category selected successfully.
+2024-04-18 15:12:40,304 - INFO - Extracting news data...
+2024-04-18 15:12:50,759 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 84, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "caas-img")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-18 15:47:33,221 - INFO - starting Al Jazeera Bot...
+2024-04-18 15:47:33,221 - INFO - Opening Al Jazeera website...
+2024-04-18 15:52:33,248 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 293.568
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 53, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 293.568
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 15:53:08,988 - INFO - starting Al Jazeera Bot...
+2024-04-18 15:53:09,057 - INFO - Opening Al Jazeera website...
+2024-04-18 15:58:00,048 - INFO - Search successful.
+2024-04-18 15:58:00,049 - INFO - Attempting to select news category.
+2024-04-18 15:58:24,329 - INFO - News category selected successfully.
+2024-04-18 15:58:24,330 - INFO - Extracting news data...
+2024-04-18 15:58:24,446 - ERROR - An error occurred during the bot execution: Message: no such element: Unable to locate element: {"method":"css selector","selector":".pt-12 fz-18 lh-22 title mb-4"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 86, in extract_news_data
+    title = self.get_element_text(article, "pt-12 fz-18 lh-22 title mb-4")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 98, in get_element_text
+    element = parent_element.find_element(By.CLASS_NAME, class_name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".pt-12 fz-18 lh-22 title mb-4"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 16:05:34,789 - INFO - starting Al Jazeera Bot...
+2024-04-18 16:05:34,789 - INFO - Opening Al Jazeera website...
+2024-04-18 16:10:34,806 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 294.428
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 53, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 294.428
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 16:11:30,562 - INFO - starting Al Jazeera Bot...
+2024-04-18 16:11:30,573 - INFO - Opening Al Jazeera website...
+2024-04-18 16:16:03,767 - INFO - Search successful.
+2024-04-18 16:16:03,767 - INFO - Attempting to select news category.
+2024-04-18 16:16:30,398 - INFO - News category selected successfully.
+2024-04-18 16:16:30,398 - INFO - Extracting news data...
+2024-04-18 16:16:30,470 - ERROR - An error occurred during the bot execution: Message: no such element: Unable to locate element: {"method":"css selector","selector":".textWrap pl-16 pr-16 ov-h"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 86, in extract_news_data
+    title = self.get_element_text(article, "textWrap pl-16 pr-16 ov-h")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 98, in get_element_text
+    element = parent_element.find_element(By.CLASS_NAME, class_name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".textWrap pl-16 pr-16 ov-h"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 19:15:22,009 - INFO - starting Al Jazeera Bot...
+2024-04-18 19:15:22,010 - INFO - Opening Al Jazeera website...
+2024-04-18 19:20:22,039 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 293.129
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 53, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 293.129
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 19:20:51,289 - INFO - starting Al Jazeera Bot...
+2024-04-18 19:20:51,404 - INFO - Opening Al Jazeera website...
+2024-04-18 19:21:54,290 - INFO - Search successful.
+2024-04-18 19:21:54,291 - INFO - Attempting to select news category.
+2024-04-18 19:26:54,310 - ERROR - Error selecting news category: Message: timeout: Timed out receiving message from renderer: 296.826
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 19:26:54,312 - INFO - Extracting news data...
+2024-04-18 19:26:54,379 - ERROR - An error occurred during the bot execution: Message: no such element: Unable to locate element: {"method":"css selector","selector":".textWrap pl-16 pr-16 ov-h"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 86, in extract_news_data
+    title = self.get_element_text(article, "textWrap pl-16 pr-16 ov-h")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 98, in get_element_text
+    element = parent_element.find_element(By.CLASS_NAME, class_name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".textWrap pl-16 pr-16 ov-h"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 19:28:02,005 - INFO - starting Al Jazeera Bot...
+2024-04-18 19:28:02,006 - INFO - Opening Al Jazeera website...
+2024-04-18 19:33:02,018 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 295.706
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 53, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 295.706
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 19:33:46,109 - INFO - starting Al Jazeera Bot...
+2024-04-18 19:33:46,169 - INFO - Opening Al Jazeera website...
+2024-04-18 19:38:23,482 - INFO - Search successful.
+2024-04-18 19:38:23,483 - INFO - Attempting to select news category.
+2024-04-18 19:39:05,640 - INFO - News category selected successfully.
+2024-04-18 19:39:05,640 - INFO - Extracting news data...
+2024-04-18 19:39:05,759 - ERROR - An error occurred during the bot execution: Message: no such element: Unable to locate element: {"method":"css selector","selector":".textWrap pl-16 pr-16 ov-h"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 86, in extract_news_data
+    title = self.get_element_text(article, "textWrap pl-16 pr-16 ov-h")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 98, in get_element_text
+    element = parent_element.find_element(By.CLASS_NAME, class_name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".textWrap pl-16 pr-16 ov-h"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 20:01:28,674 - INFO - starting Al Jazeera Bot...
+2024-04-18 20:01:28,675 - INFO - Opening Al Jazeera website...
+2024-04-18 20:06:28,701 - ERROR - An error occurred during the bot execution: Message: timeout: Timed out receiving message from renderer: 295.719
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 42, in run
+    self.open_website()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 53, in open_website
+    self.driver.get(self.base_url)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 295.719
+  (Session info: chrome=123.0.6312.123)
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C0D1EF]
+	(No symbol) [0x00007FF798C0D021]
+	(No symbol) [0x00007FF798C0B0A8]
+	(No symbol) [0x00007FF798C0BA8F]
+	(No symbol) [0x00007FF798C18A3E]
+	(No symbol) [0x00007FF798C2AB0E]
+	(No symbol) [0x00007FF798C2F82A]
+	(No symbol) [0x00007FF798C0C006]
+	(No symbol) [0x00007FF798C2A93D]
+	(No symbol) [0x00007FF798CA376C]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 20:06:45,580 - INFO - starting Al Jazeera Bot...
+2024-04-18 20:06:45,580 - INFO - Opening Al Jazeera website...
+2024-04-18 20:11:35,576 - INFO - Search successful.
+2024-04-18 20:11:35,577 - INFO - Attempting to select news category.
+2024-04-18 20:12:56,724 - INFO - News category selected successfully.
+2024-04-18 20:12:56,725 - INFO - Extracting news data...
+2024-04-18 20:13:06,904 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 84, in extract_news_data
+    articles = self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "textWrap pl-16 pr-16 ov-h")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-18 20:39:23,646 - INFO - starting Al Jazeera Bot...
+2024-04-18 20:39:23,655 - INFO - Opening Al Jazeera website...
+2024-04-18 20:44:23,976 - INFO - Search successful.
+2024-04-18 20:44:23,977 - INFO - Attempting to select news category.
+2024-04-18 20:44:53,940 - INFO - News category selected successfully.
+2024-04-18 20:44:53,941 - INFO - Extracting news data...
+2024-04-18 20:45:04,484 - ERROR - An error occurred during the bot execution: Message: 
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 45, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 84, in extract_news_data
+    articles = WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "textWrap pl-16 pr-16 ov-h")))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2024-04-18 21:06:21,739 - INFO - starting Al Jazeera Bot...
+2024-04-18 21:06:21,739 - INFO - Opening Al Jazeera website...
+2024-04-18 21:11:07,834 - INFO - Search successful.
+2024-04-18 21:11:07,835 - INFO - Attempting to select news category.
+2024-04-18 21:11:27,927 - INFO - News category selected successfully.
+2024-04-18 21:11:27,927 - INFO - Extracting news data...
+2024-04-18 21:11:55,709 - ERROR - An error occurred during the bot execution: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 46, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 87, in extract_news_data
+    for article in articles:
+TypeError: 'NoneType' object is not iterable
+2024-04-18 22:44:04,984 - INFO - starting Al Jazeera Bot...
+2024-04-18 22:44:05,073 - INFO - Opening Al Jazeera website...
+2024-04-18 22:48:37,708 - INFO - Search successful.
+2024-04-18 22:48:37,708 - INFO - Attempting to select news category.
+2024-04-18 22:49:02,495 - INFO - News category selected successfully.
+2024-04-18 22:49:02,495 - INFO - Extracting news data...
+2024-04-18 22:49:20,532 - ERROR - An error occurred during the bot execution: Message: no such element: Unable to locate element: {"method":"css selector","selector":".caas-title-wrapper"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+Traceback (most recent call last):
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 46, in run
+    self.extract_news_data()
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 90, in extract_news_data
+    title = self.get_element_text(article, "caas-title-wrapper")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\RPA\tscx.py", line 102, in get_element_text
+    element = parent_element.find_element(By.CLASS_NAME, class_name)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\USER\SCRAPER\tobex\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".caas-title-wrapper"}
+  (Session info: chrome=123.0.6312.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF798E17032+63090]
+	(No symbol) [0x00007FF798D82C82]
+	(No symbol) [0x00007FF798C1EC65]
+	(No symbol) [0x00007FF798C6499D]
+	(No symbol) [0x00007FF798C64ADC]
+	(No symbol) [0x00007FF798C5A0AC]
+	(No symbol) [0x00007FF798C8701F]
+	(No symbol) [0x00007FF798C5A00A]
+	(No symbol) [0x00007FF798C871F0]
+	(No symbol) [0x00007FF798CA3412]
+	(No symbol) [0x00007FF798C86D83]
+	(No symbol) [0x00007FF798C583A8]
+	(No symbol) [0x00007FF798C59441]
+	GetHandleVerifier [0x00007FF7992125AD+4238317]
+	GetHandleVerifier [0x00007FF79924F70D+4488525]
+	GetHandleVerifier [0x00007FF7992479EF+4456495]
+	GetHandleVerifier [0x00007FF798EF0576+953270]
+	(No symbol) [0x00007FF798D8E54F]
+	(No symbol) [0x00007FF798D89224]
+	(No symbol) [0x00007FF798D8935B]
+	(No symbol) [0x00007FF798D79B94]
+	BaseThreadInitThunk [0x00007FFF41961FE4+20]
+	RtlUserThreadStart [0x00007FFF4313EF91+33]
+
+2024-04-18 22:51:11,089 - INFO - starting Al Jazeera Bot...
+2024-04-18 22:51:11,091 - INFO - Opening Al Jazeera website...
+2024-04-18 22:53:44,782 - INFO - Search successful.
+2024-04-18 22:53:44,783 - INFO - Attempting to select news category.
+2024-04-18 22:54:24,794 - INFO - News category selected successfully.
+2024-04-18 22:54:24,795 - INFO - Extracting news data...
+2024-04-18 22:54:51,788 - INFO - News data saved to 'news_data.xlsx'.
