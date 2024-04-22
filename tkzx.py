@@ -15,12 +15,12 @@ class AlJazeeraBot:
         self.base_url = "https://news.yahoo.com/"
         self.category_url = "https://yahoo.com/news/politics/"
         self.article_url = "https://r.search.yahoo.com/_ylt=AwrijqZmcSFmnAQAUnVXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1714677351/RO=10/RU=https%3a%2f%2fwww.yahoo.com%2fnews%2fnetanyahu-says-9-chilling-words-151443025.html%3ffr%3dsycsrp_catchall/RK=2/RS=vSXP5EWVlLWc6kZrDKDFa1w1p8g-"
-        self.xlsx_file = "news_data.xlsx"
+        self.xlsx_file = "tnews_data.xlsx"
         self.search_phrase = "Netanyahu"
         self.time_period = 12
         self.driver = webdriver.Chrome()
         self.wait = WebDriverWait(self.driver, 10)
-        self.log_file = "bots_logs.log"
+        self.log_file = "tbots_logs.log"
         self.logger = self.setup_logger()
 
     def setup_logger(self):
@@ -87,7 +87,7 @@ class AlJazeeraBot:
         #articles = self.driver.get(self.article_url)
         articles = self.driver.find_elements(By.CLASS_NAME, "caas-container caas-video-pause")
         for article in articles:
-            title = self.get_element_text(article, "caas-title-wrapper")
+            title = self.get_element_text(article, "caas-lead-header-d3672395-4352-3f6a-9228-510ba80094fd")
             date = self.get_element_text(article, "2024-04-17T15:14:43.000Z")
             description = self.get_element_text(article, "caas-body")
             picture_url = self.get_element_attribute(article, "caas-img caas-lazy has-preview caas-loaded", "https://s.yimg.com/ny/api/res/1.2/m1PD8iUdHiD63515SW4LLw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/fox_news_text_979/51cde5f41794c37b6c52f9fc108f21a3")
@@ -98,12 +98,20 @@ class AlJazeeraBot:
         wb.save(self.xlsx_file)
         self.logger.info("News data saved to 'news_data.xlsx'.")
 
-    def get_element_text(self, parent_element, class_name):
-        element = parent_element.find_element(By.CLASS_NAME, class_name)
-        return element.text if element else ""
+    def get_element_text(self, ID):
+        #element = parent_element.find_element(By.CLASS_NAME, class_name)
+        #element = self.driver.find_element(By.ID, class_name)
+        try:
+            element = WebDriverWait(self.driver, 10).until(
+            EC.visibility_of_element_located((By.ID, ID))
+            )
+            return element.text if element else ""
+        except TimeoutException:
+            print(f"Element with id name '{ID}' not found or not visible.")
 
     def get_element_attribute(self, parent_element, class_name, attribute):
         element = parent_element.find_element(By.CLASS_NAME, class_name)
+        element = self.driver.find_element(By.CLASS_NAME, class_name)
         return element.get_attribute(attribute) if element else ""
 
     def count_search_phrases(self, *texts):
